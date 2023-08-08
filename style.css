@@ -12,13 +12,12 @@ body {
   */
   /*background: color image repeat positon/size */
   background: var(--bg-url) no-repeat top center/cover;
-  height: 100vh;
 }
 
 /* dark-mode */
 :root {
   --text-color: white;
-  --bg-url: url(./assets/big-mobile.jpg);
+  --bg-url: url(./assets/bg-desk.jpg);
   --stroke-color: rgba(209, 194, 194, 0.5);
   --surface-color: rgba(209, 194, 194, 0.05);
   --surface-color-hover: rgba(255, 255, 255, 0.02);
@@ -29,7 +28,7 @@ body {
 /* light-mode */
 .light {
   --text-color: black;
-  --bg-url: url(./assets/big-mobile-light.jpg);
+  --bg-url: url(./assets/bg-desk-light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -175,11 +174,11 @@ footer {
 
 @media (min-width: 700px) {
   :root {
-    --bg-url: url(./assets/bg-desk.jpg);
+    --bg-url: url(./assets/big-mobile.jpg);
   }
 
   .light {
-    --bg-url: url(./assets/bg-desk-light.jpg);
+    --bg-url: url(./assets/big-mobile-light.jpg);
   }
 }
 
